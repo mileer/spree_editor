@@ -21,9 +21,9 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'ckeditor',      '~> 4.0.11'
-  s.add_dependency 'spree_core', '~> 2.3.3'
-  s.add_dependency 'tinymce-rails', '~> 4.0.16'
+  s.add_dependency 'ckeditor',      '>= 4.0.11'
+  s.add_dependency 'spree_core', '>= 2.3.3'
+  s.add_dependency 'tinymce-rails', '>= 4.0.16'
 
   s.add_development_dependency 'rspec'
   s.add_development_dependency 'i18n-spec', '~> 0.4.0'
